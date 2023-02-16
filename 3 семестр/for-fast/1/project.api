@@ -1,9 +1,0 @@
-#
-!main.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
-Vector _type_ #<main.cpp>
-Vector(double x, double y) #<main.cpp>
-main() -> int #<main.cpp>
-operator*(Vector a) -> double #<main.cpp>
-	Vector:%x : double #<main.cpp>
-	Vector:%y : double #<main.cpp>
-	Vector::length() -> double #<main.cpp>
