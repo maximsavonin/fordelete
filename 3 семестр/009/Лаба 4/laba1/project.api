@@ -1,0 +1,20 @@
+# control.h task.h
+!control.cpp control.h graphics.h #<#>
+!main.cpp control.h graphics.h task.h #<#>
+!task.cpp graphics.h math.h task.h time.h #<#>
+ struct@Control _type_ #<control.h>
+_USE_MATH_DEFINES #<task.cpp>
+control_values : enum #<control.h>
+controls : Control[] #<control.cpp>
+create_control : void #<control.h>
+create_control(int i, int left, int top, const char* file_name) -> void #<control.cpp>
+drawAllCircle() -> void #<task.h>
+drawCircle : void #<task.h>
+drawCircle(int X1, int Y1, int R) -> void #<task.cpp>
+main() -> int #<main.cpp>
+save() -> void #<task.h>
+select_control() -> int #<control.h>
+	Control::left : int #<control.h>
+	Control::top : int #<control.h>
+	Control::right : int #<control.h>
+	Control::bottom : int #<control.h>

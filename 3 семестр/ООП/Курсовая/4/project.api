@@ -1,0 +1,129 @@
+#
+!main.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new numeric ostream random signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+Circl _type_ #<main.cpp>
+Circl(const Circl& a) #<main.cpp>
+Circl(int x, int y, int r, int color=WHITE, int thickness=1) #<main.cpp>
+Curve _type_ #<main.cpp>
+Curve() #<main.cpp>
+Curve(int data[][2], int n, int color=WHITE, int thickness=1) #<main.cpp>
+Figure _type_ #<main.cpp>
+Figure(int x0, int y0, int color=WHITE, int thickness=1) #<main.cpp>
+FillCircl _type_ #<main.cpp>
+FillCircl(const FillCircl& a) #<main.cpp>
+FillCircl(int x, int y, int r, int fillColor, int color=WHITE, int thickness=1) #<main.cpp>
+FillRec _type_ #<main.cpp>
+FillRec(const FillRec& a) #<main.cpp>
+FillRec(int x0, int y0, int x1, int y1, int fillColor, int color=WHITE, int thickness=1) #<main.cpp>
+Line _type_ #<main.cpp>
+Line(const Line& a) #<main.cpp>
+Line(int x0, int y0, int x1, int y1, int color=WHITE, int thickness=1) #<main.cpp>
+Picture _type_ #<main.cpp>
+Picture(int x, int y, string fileName) #<main.cpp>
+Point _type_ #<main.cpp>
+Rect _type_ #<main.cpp>
+Rect(const Rect& a) #<main.cpp>
+Rect(int x0, int y0, int x1, int y1, int color=WHITE, int thickness=1) #<main.cpp>
+_USE_MATH_DEFINES #<main.cpp>
+drawAll : void #<main.cpp>
+pole(int left, int top, int widht, int height, string& text, int t) -> int #<main.cpp>
+tick(int left, int top, int widht, int height, string text, int& fill) -> void #<main.cpp>
+	Circl:%r : int #<main.cpp>
+	Circl:%x0 : int #<main.cpp>
+	Circl:%y0 : int #<main.cpp>
+	Circl:%color : int #<main.cpp>
+	Circl:%thickness : int #<main.cpp>
+	Circl::setRadius(int r) -> void #<main.cpp>
+	Circl::draw() -> void #<main.cpp>
+	Circl::setCoord(int x0, int y0) -> void #<main.cpp>
+	Circl::setColor(int color) -> void #<main.cpp>
+	Circl::setThickness(int thickness) -> void #<main.cpp>
+	Circl::draw() -> virtual void #<main.cpp>
+	Curve:%data : vector #<main.cpp>
+	Curve:%step : double #<main.cpp>
+	Curve:%pefog(int[100], int, int) -> void #<main.cpp>
+	Curve:%x0 : int #<main.cpp>
+	Curve:%y0 : int #<main.cpp>
+	Curve:%color : int #<main.cpp>
+	Curve:%thickness : int #<main.cpp>
+	Curve::Curve :  #<main.cpp>
+	Curve::add(int, int) -> void #<main.cpp>
+	Curve::setStep(double a) -> void #<main.cpp>
+	Curve::setPoints(int**, int) -> void #<main.cpp>
+	Curve::getPoints(int**, int&) -> void #<main.cpp>
+	Curve::draw() -> void #<main.cpp>
+	Curve::setCoord(int x0, int y0) -> void #<main.cpp>
+	Curve::setColor(int color) -> void #<main.cpp>
+	Curve::setThickness(int thickness) -> void #<main.cpp>
+	Curve::draw() -> virtual void #<main.cpp>
+	Figure:%x0 : int #<main.cpp>
+	Figure:%y0 : int #<main.cpp>
+	Figure:%color : int #<main.cpp>
+	Figure:%thickness : int #<main.cpp>
+	Figure::setCoord(int x0, int y0) -> void #<main.cpp>
+	Figure::setColor(int color) -> void #<main.cpp>
+	Figure::setThickness(int thickness) -> void #<main.cpp>
+	Figure::draw() -> virtual void #<main.cpp>
+	FillCircl:%fillColor : int #<main.cpp>
+	FillCircl:%r : int #<main.cpp>
+	FillCircl:%x0 : int #<main.cpp>
+	FillCircl:%y0 : int #<main.cpp>
+	FillCircl:%color : int #<main.cpp>
+	FillCircl:%thickness : int #<main.cpp>
+	FillCircl::setFillColor(int fillColor) -> void #<main.cpp>
+	FillCircl::draw() -> void #<main.cpp>
+	FillCircl::setRadius(int r) -> void #<main.cpp>
+	FillCircl::setCoord(int x0, int y0) -> void #<main.cpp>
+	FillCircl::setColor(int color) -> void #<main.cpp>
+	FillCircl::setThickness(int thickness) -> void #<main.cpp>
+	FillCircl::draw() -> virtual void #<main.cpp>
+	FillRec:%fillColor : int #<main.cpp>
+	FillRec:%draw() -> void #<main.cpp>
+	FillRec:%x1 : int #<main.cpp>
+	FillRec:%y1 : int #<main.cpp>
+	FillRec:%x0 : int #<main.cpp>
+	FillRec:%y0 : int #<main.cpp>
+	FillRec:%color : int #<main.cpp>
+	FillRec:%thickness : int #<main.cpp>
+	FillRec::setFillColor(int fillColor) -> void #<main.cpp>
+	FillRec::setCoordEnd(int x1, int y1) -> void #<main.cpp>
+	FillRec::draw() -> void #<main.cpp>
+	FillRec::setCoord(int x0, int y0) -> void #<main.cpp>
+	FillRec::setColor(int color) -> void #<main.cpp>
+	FillRec::setThickness(int thickness) -> void #<main.cpp>
+	FillRec::draw() -> virtual void #<main.cpp>
+	Line:%x1 : int #<main.cpp>
+	Line:%y1 : int #<main.cpp>
+	Line:%x0 : int #<main.cpp>
+	Line:%y0 : int #<main.cpp>
+	Line:%color : int #<main.cpp>
+	Line:%thickness : int #<main.cpp>
+	Line::setCoordEnd(int x1, int y1) -> void #<main.cpp>
+	Line::draw() -> void #<main.cpp>
+	Line::setCoord(int x0, int y0) -> void #<main.cpp>
+	Line::setColor(int color) -> void #<main.cpp>
+	Line::setThickness(int thickness) -> void #<main.cpp>
+	Line::draw() -> virtual void #<main.cpp>
+	Picture:%file : IMAGE* #<main.cpp>
+	Picture:%x0 : int #<main.cpp>
+	Picture:%y0 : int #<main.cpp>
+	Picture:%color : int #<main.cpp>
+	Picture:%thickness : int #<main.cpp>
+	Picture::draw() -> void #<main.cpp>
+	Picture::setCoord(int x0, int y0) -> void #<main.cpp>
+	Picture::setColor(int color) -> void #<main.cpp>
+	Picture::setThickness(int thickness) -> void #<main.cpp>
+	Picture::draw() -> virtual void #<main.cpp>
+	Point::x : int #<main.cpp>
+	Point::y : int #<main.cpp>
+	Rect:%x1 : int #<main.cpp>
+	Rect:%y1 : int #<main.cpp>
+	Rect:%x0 : int #<main.cpp>
+	Rect:%y0 : int #<main.cpp>
+	Rect:%color : int #<main.cpp>
+	Rect:%thickness : int #<main.cpp>
+	Rect::setCoordEnd(int x1, int y1) -> void #<main.cpp>
+	Rect::draw() -> void #<main.cpp>
+	Rect::setCoord(int x0, int y0) -> void #<main.cpp>
+	Rect::setColor(int color) -> void #<main.cpp>
+	Rect::setThickness(int thickness) -> void #<main.cpp>
+	Rect::draw() -> virtual void #<main.cpp>

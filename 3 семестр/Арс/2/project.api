@@ -1,0 +1,24 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Vector _type_ #<main.cpp>
+Vector(long x=0, long y=0) #<main.cpp>
+operator!=(const Vector& v1, const Vector& v2) -> bool #<main.cpp>
+operator!=(const Vector&, const Vector&) -> bool #<main.cpp>
+operator*(Vector v, double k) -> Vector #<main.cpp>
+operator*(Vector, double) -> Vector #<main.cpp>
+operator+(Vector v1, Vector v2) -> Vector #<main.cpp>
+operator-(Vector v1, Vector v2) -> Vector #<main.cpp>
+operator/(Vector v, double k) -> Vector #<main.cpp>
+operator/(Vector, double) -> Vector #<main.cpp>
+operator<< : ostream& #<main.cpp>
+operator==(const Vector& v1, const Vector& v2) -> bool #<main.cpp>
+operator==(const Vector&, const Vector&) -> bool #<main.cpp>
+operator>> : istream& #<main.cpp>
+	Vector:%x : double #<main.cpp>
+	Vector:%y : double #<main.cpp>
+	Vector::operator*(Vector) -> double #<main.cpp>
+	Vector::operator+=(const Vector&) -> Vector& #<main.cpp>
+	Vector::operator-=(const Vector&) -> Vector& #<main.cpp>
+	Vector=:operator!() -> bool #<main.cpp>
+	Vector=:getx() -> long #<main.cpp>
+	Vector=:gety() -> long #<main.cpp>

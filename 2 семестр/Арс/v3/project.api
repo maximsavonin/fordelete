@@ -1,0 +1,21 @@
+#
+!main.cpp graphics.h keys_n_colors.h limits.h math.h stdio.h stdlib.h time.h #<#>
+ : Cell #<main.cpp>
+Button : intexitt=0;typedef struct #<main.cpp>
+Cell _type_ #<main.cpp>
+end : intwlab=31;int acell=25;int width=800, height=800;int[] #<main.cpp>
+hlab : int #<main.cpp>
+p : int #<main.cpp>
+play : int #<main.cpp>
+player : int[] #<main.cpp>
+start : int[] #<main.cpp>
+	Cell::Left : int #<main.cpp>
+	Cell::Cell : intBottom=1;int flag=0;} #<main.cpp>
+	Cell::map : Cell[][] #<main.cpp>
+	Cell::drawgame(long int t, int timer) -> void #<main.cpp>
+	Cell::shift(int x, int y, int s) -> void #<main.cpp>
+	Cell::generatlab() -> void #<main.cpp>
+	Cell::control(long int& t) -> void #<main.cpp>
+	Cell::drawmenu(Button buttons[7], int dif, int but) -> void #<main.cpp>
+	Cell::controlmenu(Button buttons[7], int& dif, int& but, int& timer) -> void #<main.cpp>
+	Cell::main() -> int #<main.cpp>

@@ -1,0 +1,19 @@
+#
+!main.cpp graphics.h keys_n_colors.h limits.h stdio.h stdlib.h time.h #<#>
+CELL #<main.cpp>
+Q : int[][][][][][][] #<main.cpp>
+Snake _type_ #<main.cpp>
+all : intnum=0;Snake[] #<main.cpp>
+ap : int[] #<main.cpp>
+apple() -> void #<main.cpp>
+d : int #<main.cpp>
+drawgame() -> void #<main.cpp>
+main() -> int #<main.cpp>
+map : int[][] #<main.cpp>
+movesnake(int x, int y) -> int #<main.cpp>
+n : int #<main.cpp>
+p : int #<main.cpp>
+start() -> void #<main.cpp>
+tread() -> void #<main.cpp>
+	Snake::x : int #<main.cpp>
+	Snake::y : int #<main.cpp>

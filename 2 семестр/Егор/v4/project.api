@@ -1,0 +1,44 @@
+#
+!L-Game.cpp conio.h graphics.h keys_n_colors.h limits.h stdio.h stdlib.h string.h time.h #<#>
+!main.cpp graphics.h keys_n_colors.h limits.h stdio.h stdlib.h time.h #<#>
+Button _type_ #<L-Game.cpp>
+CELL #<L-Game.cpp>
+Player _type_ #<L-Game.cpp>
+about() -> void #<L-Game.cpp>
+button_values : enum #<L-Game.cpp>
+buttons : Button[] #<L-Game.cpp>
+can_player_put() -> void #<L-Game.cpp>
+chec(int x, int y, int player) -> int #<L-Game.cpp>
+chec(int, int, int) -> int #<L-Game.cpp>
+close() -> void #<L-Game.cpp>
+control_game() -> void #<main.cpp>
+control_game(int& play) -> void #<L-Game.cpp>
+control_game(int&) -> void #<L-Game.cpp>
+create_button(int i, int left, int top, const char* file_name) -> void #<L-Game.cpp>
+create_button(int, int, int, const char*) -> void #<L-Game.cpp>
+draw_game() -> void #<L-Game.cpp>
+game_L() -> void #<L-Game.cpp>
+image_about : IMAGE* #<L-Game.cpp>
+image_menu : IMAGE* #<L-Game.cpp>
+image_pole : IMAGE* #<L-Game.cpp>
+load() -> void #<L-Game.cpp>
+main() -> int #<L-Game.cpp>
+map : int[][] #<L-Game.cpp>
+menu() -> void #<L-Game.cpp>
+mous : int[] #<L-Game.cpp>
+netr : int[][] #<L-Game.cpp>
+p : int #<L-Game.cpp>
+pl : Player[] #<L-Game.cpp>
+pos : int[][][] #<L-Game.cpp>
+put_figure(int x, int y, int player) -> void #<L-Game.cpp>
+put_figure(int, int, int) -> void #<L-Game.cpp>
+select_button() -> int #<L-Game.cpp>
+start() -> void #<L-Game.cpp>
+	Button::left : int #<L-Game.cpp>
+	Button::top : int #<L-Game.cpp>
+	Button::width : int #<L-Game.cpp>
+	Button::height : int #<L-Game.cpp>
+	Button::image : IMAGE* #<L-Game.cpp>
+	Player::rot : int #<main.cpp>
+	Player::x : int #<main.cpp>
+	Player::y : int #<main.cpp>

@@ -1,0 +1,29 @@
+# control.h task.h
+!control.cpp cctype cerrno clocale control.h cstdint cstdio cstdlib ctype.h cwchar errno.h exception graphics.h initializer_list iosfwd keys_n_colors.h limits limits.h locale.h new signal.h stddef.h stdint.h stdio.h stdlib.h string string_view type_traits typeinfo wchar.h #<#>
+!main.cpp cctype cerrno clocale cmath control.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new numeric ostream random signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h time.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+!task.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h type_traits typeinfo wchar.h wctype.h #<#>
+Button : struct #<control.h>
+Button _type_ #<control.cpp>
+Circl _type_ #<main.cpp>
+Pole _type_ #<main.cpp>
+button : bool #<control.h>
+button(Button a) -> bool #<control.cpp>
+circleBre(int x1, int y1, int r, int thickness) -> void #<task.cpp>
+circleBre(int, int, int, int) -> void #<task.h>
+fill(int, int, int[3][2]) -> void #<task.h>
+lineColor(int x, int col[3][2], int num, IMAGE* image) -> void #<control.cpp>
+lineColor(int, int[3][2], int, IMAGE*) -> void #<control.h>
+main() -> int #<main.cpp>
+pole(int left, int top, int widht, int height, string Text, int data, int& wrt, int t) -> int #<control.cpp>
+pole(int, int, int, int, std::string, int, int&, int) -> int #<control.h>
+save() -> void #<task.h>
+	Button::x : int #<main.cpp>
+	Button::y : int #<main.cpp>
+	Button::image : IMAGE* #<main.cpp>
+	Circl::x : int #<main.cpp>
+	Circl::y : int #<main.cpp>
+	Circl::r : int #<main.cpp>
+	Circl::thickness : int #<main.cpp>
+	Pole::x : int #<main.cpp>
+	Pole::y : int #<main.cpp>
+	Pole::value : int #<main.cpp>

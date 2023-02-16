@@ -1,0 +1,11 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo wchar.h wctype.h #<#>
+Point _type_ #<main.cpp>
+addPoint(int x, int y, Point* root) -> Point* #<main.cpp>
+chaikin(Point* root) -> Point* #<main.cpp>
+drawCircle(Point* root) -> void #<main.cpp>
+drawLine(Point* root) -> void #<main.cpp>
+main() -> int #<main.cpp>
+	Point::x : int #<main.cpp>
+	Point::y : int #<main.cpp>
+	Point::next : Point* #<main.cpp>

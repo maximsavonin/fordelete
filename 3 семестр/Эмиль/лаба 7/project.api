@@ -1,0 +1,33 @@
+# control.h task.h
+!control.cpp control.h graphics.h keys_n_colors.h #<#>
+!main.cpp control.h fstream graphics.h keys_n_colors.h task.h vector #<#>
+!task.cpp cmath fstream graphics.h keys_n_colors.h task.h vector #<#>
+!task.h fstream vector #<#>
+ struct@Control _type_ #<control.h>
+HEIGHT #<task.h>
+Square _type_ #<task.h>
+Square() #<task.h>
+WIDTH #<task.h>
+control_values : enum #<control.h>
+controls : Control[] #<control.cpp>
+create_control(int i, int left, int top, int right, int bottom) -> void #<control.cpp>
+create_control(int, int, int, int, int) -> void #<control.h>
+main() -> int #<main.cpp>
+save() -> void #<task.h>
+select_control() -> int #<control.h>
+	Control::left : int #<control.h>
+	Control::top : int #<control.h>
+	Control::right : int #<control.h>
+	Control::bottom : int #<control.h>
+	Square:%px : int[] #<task.h>
+	Square:%py : int[] #<task.h>
+	Square:%pz : int[] #<task.h>
+	Square:%int : [] #<task.h>
+	Square:%kolPoint : int #<task.h>
+	Square:%kolSide : int #<task.h>
+	Square:%dir : int[] #<task.h>
+	Square:%Points : double** #<task.h>
+	Square:%Sides : int** #<task.h>
+	Square::rote(int) -> void #<task.h>
+	Square::move(int, int) -> void #<task.h>
+	Square::draw() -> void #<task.h>

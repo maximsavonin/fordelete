@@ -1,0 +1,58 @@
+#
+!t3.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Figure _type_ #<t3.cpp>
+Figure() -> virtual~ #<t3.cpp>
+Figure(int x, int y, int c) #<t3.cpp>
+FillSector _type_ #<t3.cpp>
+FillSector(int x, int y, int c, double r, double fi1, double fi2, int fillc) #<t3.cpp>
+Sector _type_ #<t3.cpp>
+Sector(int x, int y, int c, double r, double fi1, double fi2) #<t3.cpp>
+_USE_MATH_DEFINES #<t3.cpp>
+main() -> int #<t3.cpp>
+	Figure:%c : int #<t3.cpp>
+	Figure:%visible : bool #<t3.cpp>
+	Figure:%x : int #<t3.cpp>
+	Figure:%y : int #<t3.cpp>
+	Figure:%draw() -> virtual void #<t3.cpp>
+	Figure::move(int x, int y) -> void #<t3.cpp>
+	Figure::setcolor(int c) -> void #<t3.cpp>
+	Figure::hide() -> void #<t3.cpp>
+	Figure::show() -> void #<t3.cpp>
+	Figure=:getcolor() -> int #<t3.cpp>
+	Figure=:isvisible() -> bool #<t3.cpp>
+	Figure=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<t3.cpp>
+	FillSector:%fillc : int #<t3.cpp>
+	FillSector:%draw() -> void #<t3.cpp>
+	FillSector:%r : double #<t3.cpp>
+	FillSector:%fi1 : double #<t3.cpp>
+	FillSector:%fi2 : double #<t3.cpp>
+	FillSector:%draw() -> void #<t3.cpp>
+	FillSector:%x : int #<t3.cpp>
+	FillSector:%y : int #<t3.cpp>
+	FillSector:%draw() -> virtual void #<t3.cpp>
+	FillSector::setfillcolor(int c) -> void #<t3.cpp>
+	FillSector::setsizes(double r, double fi1, double fi2) -> void #<t3.cpp>
+	FillSector::move(int x, int y) -> void #<t3.cpp>
+	FillSector::setcolor(int c) -> void #<t3.cpp>
+	FillSector::hide() -> void #<t3.cpp>
+	FillSector::show() -> void #<t3.cpp>
+	FillSector=:area(int& x1, int& y1, int& x2, int& y2) -> void #<t3.cpp>
+	FillSector=:getcolor() -> int #<t3.cpp>
+	FillSector=:isvisible() -> bool #<t3.cpp>
+	FillSector=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<t3.cpp>
+	Sector:%r : double #<t3.cpp>
+	Sector:%fi1 : double #<t3.cpp>
+	Sector:%fi2 : double #<t3.cpp>
+	Sector:%draw() -> void #<t3.cpp>
+	Sector:%x : int #<t3.cpp>
+	Sector:%y : int #<t3.cpp>
+	Sector:%draw() -> virtual void #<t3.cpp>
+	Sector::setsizes(double r, double fi1, double fi2) -> void #<t3.cpp>
+	Sector::move(int x, int y) -> void #<t3.cpp>
+	Sector::setcolor(int c) -> void #<t3.cpp>
+	Sector::hide() -> void #<t3.cpp>
+	Sector::show() -> void #<t3.cpp>
+	Sector=:area(int& x1, int& y1, int& x2, int& y2) -> void #<t3.cpp>
+	Sector=:getcolor() -> int #<t3.cpp>
+	Sector=:isvisible() -> bool #<t3.cpp>
+	Sector=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<t3.cpp>

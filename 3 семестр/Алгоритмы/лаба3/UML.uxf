@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0-XS">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Circle: TwoDimenFigure
+--
+-r: double
+--
+Circle(r: double)
++set(r: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Elips: TwoDimenFigure
+--
+-r1: double
+-r2: double
+--
+Elips(r1: double, r2: double)
++set(r1: double, r2: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Rectangle: TwoDimenFigure
+--
+-a: double
+-b: double
+--
+Rectangle(a: double, b:double)
++set(a: double, b:double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>584</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Pentagon: TwoDimenFigure
+--
+-a: double
+--
+Pentagon(a: double)
++set(a: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>776</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>QuadTetrahedron: 
+ThreeDimenFigure
+--
+-a: double
+-h: double
+--
+	QuadTetrahedron(a: double, h:
+	double)
+	+set(a: double, h: double): void
+	+calc(): string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Conus: ThreeDimenFigure
+--
+-r: double
+-h: double
+--
+Conus(r: double, h: double)
++set(r: double, h: double): void
++calc(): string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Cub: ThreeDimenFigure
+--
+-a: double
+--
+Cub(a: double)
++set(a: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1344</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>PentPrism: ThreeDimenFigure
+--
+-a: double
+-h: double
+--
+PentPrism(a: double, h: double)
++set(a: double, h: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1536</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Cylindr: ThreeDimenFigure
+--
+-r: double
+-h: double
+--
+Cilindr(r: double, h: double)
++set(r: double, h: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1728</x>
+      <y>520</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Elipsoid: ThreeDimenFigure
+--
+-r: double
+--
+Elipsoid(r: double)
++set(r: double): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>584</x>
+      <y>264</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>TwoDimenFigure: Figure
+--
+-perimeter: double
+-square: double
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>72</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Figure
+--
+
+--
++set(): void
++calc(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>776</x>
+      <y>264</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>ThreeDimenFigure: Figure
+--
+-square: double
+-volume: double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>656</x>
+      <y>216</y>
+      <w>112</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>216</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>368</x>
+      <y>408</y>
+      <w>312</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>370.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>856</x>
+      <y>408</y>
+      <w>488</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;590.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>512</y>
+      <w>760</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>768</x>
+      <y>512</y>
+      <w>1136</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

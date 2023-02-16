@@ -1,0 +1,17 @@
+# graphics.h
+!main.cpp graphics.h keys_n_colors.h limits.h math.h stdio.h stdlib.h time.h #<#>
+Ball : intheight=800;int radius=25, speed=2;int score=0, page=0;int ingame=0, n=0;int ex=0;typedef struct #<main.cpp>
+Balls : Ball[] #<main.cpp>
+colorball(int a) -> void #<main.cpp>
+createBall(int a) -> void #<main.cpp>
+flyBall(double zu_ball[5]) -> void #<main.cpp>
+goBall(int a, int b) -> void #<main.cpp>
+main() -> int #<main.cpp>
+manage_menu(int button) -> int #<main.cpp>
+newgame(double zu_ball[5]) -> void #<main.cpp>
+pi : double #<main.cpp>
+print_menu(int button, IMAGE* pic) -> void #<main.cpp>
+setBall(int a, double fi) -> void #<main.cpp>
+stop(double zu_ball[5]) -> void #<main.cpp>
+width : int #<main.cpp>
+zuballC(double zu_ball[5]) -> void #<main.cpp>

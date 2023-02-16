@@ -1,0 +1,15 @@
+#
+!main.cpp graphics.h keys_n_colors.h limits.h math.h stdio.h stdlib.h time.h #<#>
+ : Cell #<main.cpp>
+Cell _type_ #<main.cpp>
+end : intheight=800;int[] #<main.cpp>
+hlab #<main.cpp>
+p : int #<main.cpp>
+width : int #<main.cpp>
+wlab #<main.cpp>
+	Cell::Left : int #<main.cpp>
+	Cell::Cell : intBottom=1;int flag=0;} #<main.cpp>
+	Cell::map : Cell[][] #<main.cpp>
+	Cell::drawgame() -> void #<main.cpp>
+	Cell::shift(int x, int y, int s) -> void #<main.cpp>
+	Cell::main() -> int #<main.cpp>

@@ -1,0 +1,22 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Set32 _type_ #<main.cpp>
+Set32() #<main.cpp>
+operator!=(const Set32& x, const Set32& y) -> bool #<main.cpp>
+operator(const Set32& x, const Set32& y) -> bool #<main.cpp>
+operator(unsigned int z, Set32 x) -> bool #<main.cpp>
+operator*(Set32 x, Set32 y) -> Set32 #<main.cpp>
+operator+(Set32 x, Set32 y) -> Set32 #<main.cpp>
+operator-(Set32 x, Set32 y) -> Set32 #<main.cpp>
+operator<< : ostream& #<main.cpp>
+operator==(const Set32& x, const Set32& y) -> bool #<main.cpp>
+operator>=(const Set32& x, const Set32& y) -> bool #<main.cpp>
+operator>> : istream& #<main.cpp>
+	Set32:%tempSet : unsigned long #<main.cpp>
+	Set32::operator*=(const Set32& y) -> Set32& #<main.cpp>
+	Set32::operator+=(const Set32& y) -> Set32& #<main.cpp>
+	Set32::operator+=(unsigned long z) -> Set32& #<main.cpp>
+	Set32::operator-=(Set32& y) -> Set32& #<main.cpp>
+	Set32::operator-=(unsigned long z) -> Set32& #<main.cpp>
+	Set32::operator!() -> bool #<main.cpp>
+	Set32::operator>=(unsigned long int z) -> bool #<main.cpp>

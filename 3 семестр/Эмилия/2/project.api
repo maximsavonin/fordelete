@@ -1,0 +1,28 @@
+#
+!main2.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Rect _type_ #<main2.cpp>
+Rect(long l=0, long t=0, long r=0, long b=0) #<main2.cpp>
+operator!=(const Rect& r1, const Rect& r2) -> bool #<main2.cpp>
+operator!=(const Rect&, const Rect&) -> bool #<main2.cpp>
+operator(const Rect& x, const Rect& y) -> bool #<main2.cpp>
+operator(const Rect&, const Rect&) -> bool #<main2.cpp>
+operator*(Rect r1, Rect r2) -> Rect #<main2.cpp>
+operator+(Rect r1, Rect r2) -> Rect #<main2.cpp>
+operator<< : ostream& #<main2.cpp>
+operator==(const Rect& r1, const Rect& r2) -> bool #<main2.cpp>
+operator==(const Rect&, const Rect&) -> bool #<main2.cpp>
+operator>=(const Rect& x, const Rect& y) -> bool #<main2.cpp>
+operator>=(const Rect&, const Rect&) -> bool #<main2.cpp>
+operator>> : istream& #<main2.cpp>
+	Rect:%l : long #<main2.cpp>
+	Rect:%t : long #<main2.cpp>
+	Rect:%r : long #<main2.cpp>
+	Rect:%b : long #<main2.cpp>
+	Rect:%real : bool #<main2.cpp>
+	Rect::operator+=(const Rect&) -> Rect& #<main2.cpp>
+	Rect::operator*=(const Rect&) -> Rect& #<main2.cpp>
+	Rect=:operator!() -> bool #<main2.cpp>
+	Rect=:getLeft() -> long #<main2.cpp>
+	Rect=:getTop() -> long #<main2.cpp>
+	Rect=:getRight() -> long #<main2.cpp>
+	Rect=:getBottom() -> long #<main2.cpp>

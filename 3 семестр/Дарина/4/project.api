@@ -1,0 +1,17 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Stack _type_ #<main.cpp>
+Stack(const Stack&) #<main.cpp>
+Stack(int size) #<main.cpp>
+stackerror : struct stackempty: #<main.cpp>
+stackerror : struct stackfull: #<main.cpp>
+stackerror : struct stacksmall: #<main.cpp>
+stackerror _type_ #<main.cpp>
+stackerror() -> virtual~ #<main.cpp>
+	Stack:%a : T* #<main.cpp>
+	Stack:%col : int #<main.cpp>
+	Stack:%size : int #<main.cpp>
+	Stack::operator=(const Stack&) -> Stack& #<main.cpp>
+	Stack::operator<<(const T&) -> Stack& #<main.cpp>
+	Stack::operator>> : Stack& #<main.cpp>
+	stackerror=:what() -> virtual const char* #<main.cpp>

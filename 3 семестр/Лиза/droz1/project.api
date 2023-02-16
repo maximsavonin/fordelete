@@ -1,0 +1,6 @@
+#
+!main.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception format initializer_list ios iosfwd iostream istream limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+calculateRoots(float a, float b, float c) -> string #<main.cpp>
+checkCoefficient(float a, float b, float c) -> int #<main.cpp>
+checkD(float D) -> int #<main.cpp>
+main() -> int #<main.cpp>

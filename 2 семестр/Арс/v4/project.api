@@ -1,0 +1,26 @@
+#
+!program.cpp graphics.h keys_n_colors.h limits.h math.h stdio.h stdlib.h time.h #<#>
+ : Cell #<program.cpp>
+Button _type_ #<program.cpp>
+Cell _type_ #<program.cpp>
+buttons : Button[] #<program.cpp>
+end : intwlab=31;int acell=25;int width=800, height=800;int[] #<program.cpp>
+hlab : int #<program.cpp>
+p : int #<program.cpp>
+player : int[] #<program.cpp>
+start : int[] #<program.cpp>
+	Button::x : int #<program.cpp>
+	Button::y : int #<program.cpp>
+	Button::w : int #<program.cpp>
+	Button::h : int #<program.cpp>
+	Button::text : char[] #<program.cpp>
+	Cell::Left : int #<program.cpp>
+	Cell::Cell : intBottom=1;int flag=0;} #<program.cpp>
+	Cell::map : Cell[][] #<program.cpp>
+	Cell::drawgame(long int t, int timer, int& play, int& tomenu) -> void #<program.cpp>
+	Cell::shift(int x, int y, int s) -> void #<program.cpp>
+	Cell::generatlab() -> void #<program.cpp>
+	Cell::control(long int& t, int& play, int& tomenu) -> void #<program.cpp>
+	Cell::drawmenu(int dif, int but, IMAGE* picmenu) -> void #<program.cpp>
+	Cell::controlmenu(int& dif, int& but, int& timer, int& play, int& exitt) -> void #<program.cpp>
+	Cell::main() -> int #<program.cpp>

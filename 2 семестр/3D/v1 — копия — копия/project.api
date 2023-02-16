@@ -1,0 +1,28 @@
+# task.h
+!main.cpp ctime graphics.h keys_n_colors.h math.h random stdio.h task.h #<#>
+!task.cpp graphics.h keys_n_colors.h math.h task.h #<#>
+Button _type_ #<main.cpp>
+COLOR_MAX #<task.h>
+H #<main.cpp>
+W #<main.cpp>
+fill_1(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_1(int, int, int, int, int) -> void #<task.h>
+fill_2(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_2(int, int, int, int, int) -> void #<task.h>
+fill_3(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_3(int, int, int, int, int) -> void #<task.h>
+fill_4(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_4(int, int, int, int, int) -> void #<task.h>
+fill_5(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_5(int, int, int, int, int) -> void #<task.h>
+fill_6(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_6(int, int, int, int, int) -> void #<task.h>
+fill_7(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_7(int, int, int, int, int) -> void #<task.h>
+fill_8(int left, int top, int width, int height, int c=0) -> void #<task.cpp>
+fill_8(int, int, int, int, int) -> void #<task.h>
+main() -> int #<main.cpp>
+save() -> void #<task.h>
+	Button::x : int #<main.cpp>
+	Button::y : int #<main.cpp>
+	Button::text : char[] #<main.cpp>

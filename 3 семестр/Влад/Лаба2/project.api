@@ -1,0 +1,25 @@
+# control.h task.h
+!control.cpp control.h graphics.h keys_n_colors.h #<#>
+!main.cpp control.h graphics.h keys_n_colors.h task.h #<#>
+!task.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar errno.h exception graphics.h initializer_list iosfwd keys_n_colors.h limits limits.h locale.h math.h new numeric random signal.h stddef.h stdint.h stdio.h stdlib.h string string_view task.h time.h type_traits typeinfo utility vector wchar.h #<#>
+ struct@Control _type_ #<control.h>
+ struct@Point _type_ #<task.h>
+NP #<task.h>
+control_values : enum #<control.h>
+controls : Control[] #<control.cpp>
+create_control(int i, int left, int top, const char* file_name) -> void #<control.cpp>
+create_control(int, int, int, const char*) -> void #<control.h>
+genPoint(int left, int top, int width, int height) -> void #<task.cpp>
+genPoint(int, int, int, int) -> void #<task.h>
+main() -> int #<main.cpp>
+points : Point[] #<task.cpp>
+recPoint(int left, int top, int width, int height) -> void #<task.cpp>
+recPoint(int, int, int, int) -> void #<task.h>
+save() -> void #<task.h>
+select_control() -> int #<control.h>
+	Control::left : int #<control.h>
+	Control::top : int #<control.h>
+	Control::right : int #<control.h>
+	Control::bottom : int #<control.h>
+	Point::x : int #<task.h>
+	Point::y : int #<task.h>

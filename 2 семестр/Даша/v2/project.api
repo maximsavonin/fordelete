@@ -1,0 +1,7 @@
+#
+!program.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctime ctype.h cwchar errno.h exception graphics.h initializer_list iosfwd keys_n_colors.h limits limits.h locale.h math.h new numeric random signal.h stddef.h stdint.h stdio.h stdlib.h string string_view time.h type_traits typeinfo utility vector wchar.h #<#>
+Ball : inth=800, radius=20, speed=5;struct #<program.cpp>
+Ballgo : void #<program.cpp>
+copyball(Ball a, Ball& b) -> void #<program.cpp>
+pi : double #<program.cpp>
+w : int #<program.cpp>

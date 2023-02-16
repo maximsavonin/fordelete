@@ -1,0 +1,23 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctime ctype.h cwchar cwctype errno.h exception fstream initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h sstream stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+Example _type_ #<main.cpp>
+Example(Example* left, char oper, Example* right) #<main.cpp>
+Example(int answer) #<main.cpp>
+Generator _type_ #<main.cpp>
+Generator(int numExample, int numOperations, int rangeLeft, int rangeRight, int* checkBox) #<main.cpp>
+generateFile(string fileName) -> void #<main.cpp>
+generateVector : void #<main.cpp>
+	Example:%left : Example* #<main.cpp>
+	Example:%right : Example* #<main.cpp>
+	Example:%answer : int #<main.cpp>
+	Example:%prior : int #<main.cpp>
+	Example:%res : string #<main.cpp>
+	Example:%oper : char #<main.cpp>
+	Example=:exampleString() -> string #<main.cpp>
+	Generator:%numExample : int #<main.cpp>
+	Generator:%numOperations : int #<main.cpp>
+	Generator:%rangeLeft : int #<main.cpp>
+	Generator:%rangeRight : int #<main.cpp>
+	Generator:%checkBox : int[] #<main.cpp>
+	Generator:%rec(int numExample, int numfOperations) -> Example* #<main.cpp>
+	Generator::generateOneExample() -> Example* #<main.cpp>

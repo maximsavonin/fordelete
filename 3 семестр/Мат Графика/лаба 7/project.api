@@ -1,0 +1,33 @@
+# control.h task.h
+!control.cpp control.h graphics.h keys_n_colors.h #<#>
+!main.cpp cctype cerrno clocale control.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception fstream graphics.h initializer_list ios iosfwd istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+!task.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception fstream graphics.h initializer_list ios iosfwd istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+!task.h cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception fstream initializer_list ios iosfwd istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo utility vector wchar.h wctype.h #<#>
+ struct@Control _type_ #<control.h>
+Figure _type_ #<task.h>
+Figure() #<task.h>
+HEIGHT #<task.h>
+WIDTH #<task.h>
+control_values : enum #<control.h>
+controls : Control[] #<control.cpp>
+create_control(int i, int left, int top, const char* file_name) -> void #<control.cpp>
+create_control(int, int, int, const char*) -> void #<control.h>
+main() -> int #<main.cpp>
+save() -> void #<task.h>
+select_control() -> int #<control.h>
+	Control::left : int #<control.h>
+	Control::top : int #<control.h>
+	Control::right : int #<control.h>
+	Control::bottom : int #<control.h>
+	Figure:%px : int[] #<task.h>
+	Figure:%py : int[] #<task.h>
+	Figure:%pz : int[] #<task.h>
+	Figure:%figure : int[] #<task.h>
+	Figure:%numPoint : int #<task.h>
+	Figure:%numPol : int #<task.h>
+	Figure:%dir : int[] #<task.h>
+	Figure:%Points : double** #<task.h>
+	Figure:%Pol : int** #<task.h>
+	Figure::rote(int) -> void #<task.h>
+	Figure::move(int, int) -> void #<task.h>
+	Figure::draw() -> void #<task.h>

@@ -1,0 +1,49 @@
+#
+!main.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new numeric ostream random signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+Figure _type_ #<main.cpp>
+Figure(int x0, int y0, int color=WHITE, int thickness=1) #<main.cpp>
+FillRec _type_ #<main.cpp>
+FillRec(const FillRec& a) #<main.cpp>
+FillRec(int x0, int y0, int x1, int y1, int fillColor, int color=WHITE, int thickness=1) #<main.cpp>
+Point _type_ #<main.cpp>
+Rect _type_ #<main.cpp>
+Rect(const Rect& a) #<main.cpp>
+Rect(int x0, int y0, int x1, int y1, int color=WHITE, int thickness=1) #<main.cpp>
+_USE_MATH_DEFINES #<main.cpp>
+main() -> int #<main.cpp>
+	Figure:%x0 : int #<main.cpp>
+	Figure:%y0 : int #<main.cpp>
+	Figure:%color : int #<main.cpp>
+	Figure:%thickness : int #<main.cpp>
+	Figure::setCoord(int x0, int y0) -> void #<main.cpp>
+	Figure::setColor(int color) -> void #<main.cpp>
+	Figure::setThickness(int thickness) -> void #<main.cpp>
+	Figure::draw() -> virtual void #<main.cpp>
+	FillRec:%fillColor : int #<main.cpp>
+	FillRec:%x1 : int #<main.cpp>
+	FillRec:%y1 : int #<main.cpp>
+	FillRec:%x0 : int #<main.cpp>
+	FillRec:%y0 : int #<main.cpp>
+	FillRec:%color : int #<main.cpp>
+	FillRec:%thickness : int #<main.cpp>
+	FillRec::setFillColor(int fillColor) -> void #<main.cpp>
+	FillRec::draw() -> void #<main.cpp>
+	FillRec::setCoordEnd(int x1, int y1) -> void #<main.cpp>
+	FillRec::setCoord(int x0, int y0) -> void #<main.cpp>
+	FillRec::setColor(int color) -> void #<main.cpp>
+	FillRec::setThickness(int thickness) -> void #<main.cpp>
+	FillRec::draw() -> virtual void #<main.cpp>
+	Point::x : int #<main.cpp>
+	Point::y : int #<main.cpp>
+	Rect:%x1 : int #<main.cpp>
+	Rect:%y1 : int #<main.cpp>
+	Rect:%x0 : int #<main.cpp>
+	Rect:%y0 : int #<main.cpp>
+	Rect:%color : int #<main.cpp>
+	Rect:%thickness : int #<main.cpp>
+	Rect::setCoordEnd(int x1, int y1) -> void #<main.cpp>
+	Rect::draw() -> void #<main.cpp>
+	Rect::setCoord(int x0, int y0) -> void #<main.cpp>
+	Rect::setColor(int color) -> void #<main.cpp>
+	Rect::setThickness(int thickness) -> void #<main.cpp>
+	Rect::draw() -> virtual void #<main.cpp>

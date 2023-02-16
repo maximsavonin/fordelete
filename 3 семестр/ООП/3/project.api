@@ -1,0 +1,56 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Figure _type_ #<main.cpp>
+Figure() -> virtual~ #<main.cpp>
+Figure(int c, int x, int y) #<main.cpp>
+FillPentagram _type_ #<main.cpp>
+FillPentagram(int c, int x, int y, int r, int fi, int fillColor) #<main.cpp>
+Pentagram _type_ #<main.cpp>
+Pentagram(int c, int x, int y, int r, int fi) #<main.cpp>
+main() -> int #<main.cpp>
+	Figure:%c : int #<main.cpp>
+	Figure:%visible : bool #<main.cpp>
+	Figure:%x : int #<main.cpp>
+	Figure:%y : int #<main.cpp>
+	Figure:%draw() -> virtual void #<main.cpp>
+	Figure::move(int x, int y) -> void #<main.cpp>
+	Figure::setcolor(int c) -> void #<main.cpp>
+	Figure::hide() -> void #<main.cpp>
+	Figure::show() -> void #<main.cpp>
+	Figure=:getcolor() -> int #<main.cpp>
+	Figure=:isvisible() -> bool #<main.cpp>
+	Figure=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<main.cpp>
+	FillPentagram:%fill(int x, int y) -> void #<main.cpp>
+	FillPentagram:%fillColor : int #<main.cpp>
+	FillPentagram:%draw() -> void #<main.cpp>
+	FillPentagram:%r : double #<main.cpp>
+	FillPentagram:%fi : double #<main.cpp>
+	FillPentagram:%draw() -> void #<main.cpp>
+	FillPentagram:%x : int #<main.cpp>
+	FillPentagram:%y : int #<main.cpp>
+	FillPentagram:%draw() -> virtual void #<main.cpp>
+	FillPentagram::setfillcolor(int c) -> void #<main.cpp>
+	FillPentagram::setsizes(double r, double fi) -> void #<main.cpp>
+	FillPentagram::move(int x, int y) -> void #<main.cpp>
+	FillPentagram::setcolor(int c) -> void #<main.cpp>
+	FillPentagram::hide() -> void #<main.cpp>
+	FillPentagram::show() -> void #<main.cpp>
+	FillPentagram=:area(int& x1, int& y1, int& x2, int& y2) -> void #<main.cpp>
+	FillPentagram=:getcolor() -> int #<main.cpp>
+	FillPentagram=:isvisible() -> bool #<main.cpp>
+	FillPentagram=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<main.cpp>
+	Pentagram:%r : double #<main.cpp>
+	Pentagram:%fi : double #<main.cpp>
+	Pentagram:%draw() -> void #<main.cpp>
+	Pentagram:%x : int #<main.cpp>
+	Pentagram:%y : int #<main.cpp>
+	Pentagram:%draw() -> virtual void #<main.cpp>
+	Pentagram::setsizes(double r, double fi) -> void #<main.cpp>
+	Pentagram::move(int x, int y) -> void #<main.cpp>
+	Pentagram::setcolor(int c) -> void #<main.cpp>
+	Pentagram::hide() -> void #<main.cpp>
+	Pentagram::show() -> void #<main.cpp>
+	Pentagram=:area(int& x1, int& y1, int& x2, int& y2) -> void #<main.cpp>
+	Pentagram=:getcolor() -> int #<main.cpp>
+	Pentagram=:isvisible() -> bool #<main.cpp>
+	Pentagram=:area(int& x1, int& y1, int& x2, int& y2) -> virtual void #<main.cpp>

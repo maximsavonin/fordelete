@@ -1,0 +1,24 @@
+#
+!main.cpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+Complex _type_ #<main.cpp>
+Complex() #<main.cpp>
+Complex(double a1, double b1) #<main.cpp>
+operator!=(const Complex& x, const Complex& y) -> bool #<main.cpp>
+operator!=(const Complex&, const Complex&) -> bool #<main.cpp>
+operator<< : ostream& #<main.cpp>
+operator==(const Complex& x, const Complex& y) -> bool #<main.cpp>
+operator==(const Complex&, const Complex&) -> bool #<main.cpp>
+operator>> : istream& #<main.cpp>
+	Complex:%a : double #<main.cpp>
+	Complex:%b : double #<main.cpp>
+	Complex::operator+(Complex&) -> Complex #<main.cpp>
+	Complex::operator-(Complex&) -> Complex #<main.cpp>
+	Complex::operator*(Complex&) -> Complex #<main.cpp>
+	Complex::operator/(Complex&) -> Complex #<main.cpp>
+	Complex::operator+=(const Complex&) -> Complex& #<main.cpp>
+	Complex::operator-=(const Complex&) -> Complex& #<main.cpp>
+	Complex::operator*=(const Complex&) -> Complex& #<main.cpp>
+	Complex::operator/=(const Complex&) -> Complex& #<main.cpp>
+	Complex=:operator!() -> bool #<main.cpp>
+	Complex=:getReal() -> long #<main.cpp>
+	Complex=:getImaginary() -> long #<main.cpp>

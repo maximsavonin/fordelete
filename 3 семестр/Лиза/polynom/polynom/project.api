@@ -1,0 +1,34 @@
+# polynome.h
+!main.cpp iostream map math.h polynome.h string vector #<#>
+!polynome.cpp algorithm iostream map math.h polynome.h sstream string vector #<#>
+!polynome.h iostream map math.h string vector #<#>
+Monome _type_ #<polynome.h>
+Monome() #<polynome.h>
+Monome(double num) #<polynome.h>
+Polynome _type_ #<polynome.h>
+Polynome() #<polynome.h>
+Polynome(Monome num) #<polynome.h>
+Polynome(double num) #<polynome.h>
+main() -> int #<main.cpp>
+operator!=(const Monome& obj1, const Monome& obj2) -> bool #<polynome.h>
+operator<< : ostream& #<polynome.cpp>
+operator<< : std::ostream& #<polynome.h>
+operator==(const Monome& obj1, const Monome& obj2) -> bool #<polynome.h>
+operator>> : std::istream& #<polynome.h>
+	Monome:%coef : double #<polynome.h>
+	Monome:%pows : std::map #<polynome.h>
+	Monome::Monome :  #<polynome.h>
+	Monome::differentiate(char c) -> void #<polynome.h>
+	Monome=:operator*(const Monome& obj) -> Monome #<polynome.h>
+	Monome=:operator*(double number) -> Monome #<polynome.h>
+	Monome=:operator/(double number) -> Monome #<polynome.h>
+	Monome=:similar(const Monome& obj) -> bool #<polynome.h>
+	Polynome:%terms : std::vector #<polynome.h>
+	Polynome::Polynome :  #<polynome.h>
+	Polynome::print_variables() -> std::vector #<polynome.h>
+	Polynome::count_for : double #<polynome.h>
+	Polynome::derivative(char c) -> Polynome #<polynome.h>
+	Polynome=:operator+(const Polynome& obj) -> Polynome #<polynome.h>
+	Polynome=:operator-(const Polynome& obj) -> Polynome #<polynome.h>
+	Polynome=:operator*(const Polynome& obj) -> Polynome #<polynome.h>
+	Polynome=:operator/(double number) -> Polynome #<polynome.h>

@@ -1,0 +1,3 @@
+﻿  temp.cpp
+C:\Users\max\Desktop\Программирование\3 семестр\Арс\курсовая\Пробная\temp\temp.cpp(71,4): error C3861: _abracadabra_cast: идентификатор не найден
+C:\Users\max\Desktop\Программирование\3 семестр\Арс\курсовая\Пробная\temp\temp.cpp(69): fatal error C1075: "{": не найдена несоответствующая лексема

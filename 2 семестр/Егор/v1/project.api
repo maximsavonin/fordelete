@@ -1,0 +1,17 @@
+#
+!main.cpp graphics.h keys_n_colors.h limits.h stdio.h stdlib.h time.h #<#>
+CELL #<main.cpp>
+Player _type_ #<main.cpp>
+control_game() -> void #<main.cpp>
+draw_game() -> void #<main.cpp>
+main() -> int #<main.cpp>
+map : int[][] #<main.cpp>
+mous : int[] #<main.cpp>
+netr : int[][] #<main.cpp>
+p : int #<main.cpp>
+pl : Player[] #<main.cpp>
+pos : int[][][] #<main.cpp>
+put_figure(int x, int y, int player) -> int #<main.cpp>
+	Player::rot : int #<main.cpp>
+	Player::x : int #<main.cpp>
+	Player::y : int #<main.cpp>

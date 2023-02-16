@@ -1,0 +1,11 @@
+#
+!main.cpp graphics.h keys_n_colors.h limits.h math.h stdio.h stdlib.h time.h #<#>
+bord : int[] #<main.cpp>
+cell #<main.cpp>
+draw_game(int l[2], int point[8]) -> void #<main.cpp>
+main() -> int #<main.cpp>
+map : intw=5, h=4;int[][] #<main.cpp>
+new_game() -> void #<main.cpp>
+p : int #<main.cpp>
+startx #<main.cpp>
+starty #<main.cpp>

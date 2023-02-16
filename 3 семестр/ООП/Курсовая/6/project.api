@@ -1,0 +1,130 @@
+# draw.h
+!draw.cpp draw.h graphics.h iostream keys_n_colors.h math.h random time.h vector #<#>
+!draw.h vector #<#>
+!main.cpp draw.h graphics.h iostream keys_n_colors.h math.h random time.h vector #<#>
+Circl _type_ #<draw.h>
+Circl(const Circl& a) #<draw.h>
+Circl(int x, int y, int r, int color=WHITE, int thickness=1) #<draw.h>
+Curve _type_ #<draw.h>
+Curve() #<draw.h>
+Curve(int data[][2], int n, int color=WHITE, int thickness=1) #<draw.h>
+Figure _type_ #<draw.h>
+Figure(int x0, int y0, int color=WHITE, int thickness=1) #<draw.h>
+FillCircl _type_ #<draw.h>
+FillCircl(const FillCircl& a) #<draw.h>
+FillCircl(int x, int y, int r, int fillColor, int color=WHITE, int thickness=1) #<draw.h>
+FillRec _type_ #<draw.h>
+FillRec(const FillRec& a) #<draw.h>
+FillRec(int x0, int y0, int x1, int y1, int fillColor, int color=WHITE, int thickness=1) #<draw.h>
+Line _type_ #<draw.h>
+Line(const Line& a) #<draw.h>
+Line(int x0, int y0, int x1, int y1, int color=WHITE, int thickness=1) #<draw.h>
+Picture _type_ #<draw.h>
+Picture(int x, int y, string fileName) #<draw.h>
+Point _type_ #<draw.h>
+Rect _type_ #<draw.h>
+Rect(const Rect& a) #<draw.h>
+Rect(int x0, int y0, int x1, int y1, int color=WHITE, int thickness=1) #<draw.h>
+_USE_MATH_DEFINES #<draw.cpp>
+addLine : void #<main.cpp>
+drawAll : void #<draw.h>
+lineColor(int x, int y, int col[3][2], int num, IMAGE* image) -> void #<main.cpp>
+outcoord() -> void #<draw.h>
+pole(int left, int top, int widht, int height, string& text, int t) -> int #<main.cpp>
+tick(int left, int top, int widht, int height, string text, int& fill) -> void #<main.cpp>
+	Circl:%r : int #<draw.h>
+	Circl:%x0 : int #<draw.h>
+	Circl:%y0 : int #<draw.h>
+	Circl:%color : int #<draw.h>
+	Circl:%thickness : int #<draw.h>
+	Circl::setRadius(int r) -> void #<draw.h>
+	Circl::draw() -> void #<draw.h>
+	Circl::setCoord(int x0, int y0) -> void #<draw.h>
+	Circl::setColor(int color) -> void #<draw.h>
+	Circl::setThickness(int thickness) -> void #<draw.h>
+	Circl::draw() -> virtual void #<draw.h>
+	Curve:%data : vector #<draw.h>
+	Curve:%step : double #<draw.h>
+	Curve:%pefog(int[100], int, int) -> void #<draw.h>
+	Curve:%x0 : int #<draw.h>
+	Curve:%y0 : int #<draw.h>
+	Curve:%color : int #<draw.h>
+	Curve:%thickness : int #<draw.h>
+	Curve::Curve :  #<draw.h>
+	Curve::getPoints() -> vector #<draw.h>
+	Curve::draw() -> void #<draw.h>
+	Curve::setCoord(int x0, int y0) -> void #<draw.h>
+	Curve::setColor(int color) -> void #<draw.h>
+	Curve::setThickness(int thickness) -> void #<draw.h>
+	Curve::draw() -> virtual void #<draw.h>
+	Figure:%x0 : int #<draw.h>
+	Figure:%y0 : int #<draw.h>
+	Figure:%color : int #<draw.h>
+	Figure:%thickness : int #<draw.h>
+	Figure::setCoord(int x0, int y0) -> void #<draw.h>
+	Figure::setColor(int color) -> void #<draw.h>
+	Figure::setThickness(int thickness) -> void #<draw.h>
+	Figure::draw() -> virtual void #<draw.h>
+	FillCircl:%fillColor : int #<draw.h>
+	FillCircl:%r : int #<draw.h>
+	FillCircl:%x0 : int #<draw.h>
+	FillCircl:%y0 : int #<draw.h>
+	FillCircl:%color : int #<draw.h>
+	FillCircl:%thickness : int #<draw.h>
+	FillCircl::setFillColor(int fillColor) -> void #<draw.h>
+	FillCircl::draw() -> void #<draw.h>
+	FillCircl::setRadius(int r) -> void #<draw.h>
+	FillCircl::setCoord(int x0, int y0) -> void #<draw.h>
+	FillCircl::setColor(int color) -> void #<draw.h>
+	FillCircl::setThickness(int thickness) -> void #<draw.h>
+	FillCircl::draw() -> virtual void #<draw.h>
+	FillRec:%fillColor : int #<draw.h>
+	FillRec:%x1 : int #<draw.h>
+	FillRec:%y1 : int #<draw.h>
+	FillRec:%x0 : int #<draw.h>
+	FillRec:%y0 : int #<draw.h>
+	FillRec:%color : int #<draw.h>
+	FillRec:%thickness : int #<draw.h>
+	FillRec::setFillColor(int fillColor) -> void #<draw.h>
+	FillRec::draw() -> void #<draw.h>
+	FillRec::setCoordEnd(int x1, int y1) -> void #<draw.h>
+	FillRec::setCoord(int x0, int y0) -> void #<draw.h>
+	FillRec::setColor(int color) -> void #<draw.h>
+	FillRec::setThickness(int thickness) -> void #<draw.h>
+	FillRec::draw() -> virtual void #<draw.h>
+	Line:%x1 : int #<draw.h>
+	Line:%y1 : int #<draw.h>
+	Line:%x0 : int #<draw.h>
+	Line:%y0 : int #<draw.h>
+	Line:%color : int #<draw.h>
+	Line:%thickness : int #<draw.h>
+	Line::setCoordEnd(int x1, int y1) -> void #<draw.h>
+	Line::draw() -> void #<draw.h>
+	Line::setCoord(int x0, int y0) -> void #<draw.h>
+	Line::setColor(int color) -> void #<draw.h>
+	Line::setThickness(int thickness) -> void #<draw.h>
+	Line::draw() -> virtual void #<draw.h>
+	Picture:%file : IMAGE* #<draw.h>
+	Picture:%x0 : int #<draw.h>
+	Picture:%y0 : int #<draw.h>
+	Picture:%color : int #<draw.h>
+	Picture:%thickness : int #<draw.h>
+	Picture::draw() -> void #<draw.h>
+	Picture::setCoord(int x0, int y0) -> void #<draw.h>
+	Picture::setColor(int color) -> void #<draw.h>
+	Picture::setThickness(int thickness) -> void #<draw.h>
+	Picture::draw() -> virtual void #<draw.h>
+	Point::x : int #<draw.h>
+	Point::y : int #<draw.h>
+	Rect:%x1 : int #<draw.h>
+	Rect:%y1 : int #<draw.h>
+	Rect:%x0 : int #<draw.h>
+	Rect:%y0 : int #<draw.h>
+	Rect:%color : int #<draw.h>
+	Rect:%thickness : int #<draw.h>
+	Rect::setCoordEnd(int x1, int y1) -> void #<draw.h>
+	Rect::draw() -> void #<draw.h>
+	Rect::setCoord(int x0, int y0) -> void #<draw.h>
+	Rect::setColor(int color) -> void #<draw.h>
+	Rect::setThickness(int thickness) -> void #<draw.h>
+	Rect::draw() -> virtual void #<draw.h>

@@ -1,0 +1,6 @@
+#
+!main.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h #<#>
+_USE_MATH_DEFINES #<main.cpp>
+definFigur(string name) -> int* #<main.cpp>
+findParam(string name) -> string #<main.cpp>
+main() -> int #<main.cpp>
