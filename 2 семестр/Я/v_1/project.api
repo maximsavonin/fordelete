@@ -1,5 +1,0 @@
-# graphics.h
-!v_1.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new numeric ostream random signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo utility vector wchar.h wctype.h #<#>
-down(int& n_x, int& n_y, vector& map, int& x_d, int& y_d, int& falling) -> void #<v_1.cpp>
-draw(int x, int y, int h, int col) -> void #<v_1.cpp>
-move_line : void #<v_1.cpp>

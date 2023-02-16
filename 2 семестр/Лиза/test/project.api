@@ -1,4 +1,0 @@
-#
-!program.cpp cctype cerrno clocale cmath cstdint cstdio cstdlib ctime ctype.h cwchar errno.h exception initializer_list iosfwd limits limits.h locale.h math.h new numeric random signal.h stddef.h stdint.h stdio.h stdlib.h string string_view time.h type_traits typeinfo utility vector wchar.h #<#>
-main() -> int #<program.cpp>
-math(char str[100]) -> void #<program.cpp>
